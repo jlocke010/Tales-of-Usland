@@ -1,2 +1,3 @@
-# tales_of_usland
-A text based Bash script game
+# Tale of Usland
+
+A charming and simple Bash script game made on my steamdeck
