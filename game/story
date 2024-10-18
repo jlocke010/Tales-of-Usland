@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 a00="You awaken in a daze...
@@ -40,7 +39,6 @@ his dirty face looking upon yours with concern....
 a07="Beggar: Hi fella, you've been asleep for quite a while.."
 
 a08="They swept you up with the rest of the lot back in Usland.
-
 "
 
 
@@ -99,13 +97,23 @@ It is too dense to try and make your way through the woods.
 
 a19="To the east is the only possible path through the Northern Forest."
 
-b01="This Forest to the North has an air of foreign presence, with vines and brambles overgrowing onto the path. It doesn't appear to have been traversed very often.
+b01="This Forest to the North has an air of foreign presence,
+
+with vines and brambles overgrowing onto the path.
+
+It doesn't appear to have been traversed very often.
 "
 
-a20="To the west is a road that seems to lead through towards a Mountain Path, the trail slowly inclining away."
+a20="To the west is a road that seems to lead through towards a Mountain Path,
+
+the trail slowly inclining away."
 
 
-c01="Looking at the Mountain Path, you notice the marks of wheels impressed upon the ground. The path appears to be used frequently, but #by whom is anyone's guess..."
+c01="Looking at the Mountain Path, you notice the marks of wheels
+
+impressed upon the ground. The path appears to be used frequently,
+
+but by whom is anyone's guess..."
 
 
 
