@@ -1,0 +1,103 @@
+#!/bin/bash
+
+source roll
+
+
+#
+#
+#NEW GAME FUNCTION ngf
+#CHECKS FOR GAME SAVE FILES
+#IF NONE ARE FOUND A DIR AND SAVE FILE ARE CREATED
+#
+#
+
+
+function ngf (){
+while [ "$z" == "0" ];
+do
+    echo "  Please type one of the options:"
+    echo "  (a) Start New Game"
+    echo "  (b) Load Game"
+    read gamestate
+
+    if [[ "$gamestate" == "b" || "$gamestate" == "B" ]]
+    then
+        echo "This Feature is currently not supported"
+        z="0"
+    elif [[ "$gamestate" == "a" || "$gamestate" == "A" ]]
+    then
+        echo "
+
+Starting New Game...
+        "
+
+        z="1"
+   else
+
+       z="0"
+
+   fi
+done
+}
+
+
+#
+#
+#
+#RANDOM CHECK FUNCTION  rndchk
+#
+#
+#REQUIRES AND X VALUE WHICH CAN BE A ROLL FUNCTION
+#REQUIRES A(N) CHKV VALUE
+#CHKV VALUES 1 & 2 ARE RESPONSES TO A SUCCESFUL CHECK
+#CHKV VALUES 3 & 4 ARE RESPONSES TO FAILED CHECK\
+
+
+
+function rndchk() {
+    if [ "$x" -gt "$y" ];
+    then
+        echo "  Check Sucessful!
+
+        "
+        echo "$chkv1"
+        echo "$chkv2"
+    else
+        echo "  Check Failed!
+
+        "
+        echo "$chkv3"
+        echo "$chkv4"
+
+
+    fi
+
+    chkv1=""
+    chkv2=""
+    chkv3=""
+    chkv4=""
+    x=""
+    y=""
+
+}
+
+
+
+#
+#
+#YES NO FUNCTION YESNO
+#REQUIRES A READ
+#
+
+function yesno(){
+    echo "  Are you sure? y/n?
+    "
+    read yn
+
+    if [[ "$yn" == "yes" || "$yn" == "Yes" || "$yn" == "y" || "$yn" == "Y" ]];
+    then
+        z="true"
+    else
+        z="false"
+    fi
+    }

@@ -1,0 +1,61 @@
+#!/bin/bash
+
+
+chk="5"
+#Make a function that checks xp against lvl. then changes next lvl variable after level up#
+#nxtlvl xp multiplier is 2#
+xp="0"
+nxtlvl="270"
+lvl3="540"
+lvl4="1080"
+lvl5="2160"
+lvl6="4320"
+lvl7="8640"
+
+warrior=( "Warrior" 15 10 7 2 2 7 2 5 )
+warlvladd=( 2 3 3 4 4 3 4 3)
+warhp="15"
+waratk="10"
+wardef="7"
+warsatk="2"
+warsdef="2"
+warspd="7"
+warmgc="2"
+warlck="5"
+
+mage=( "Mage" 12 2 2 8 7 2 9 8 )
+maglvladd=( 2 4 4 3 3 3 3 )
+maghp="12"
+msgatk="2"
+msgdef="2"
+magsatk="8"
+magsdef="7"
+magspd="2"
+magmgc="9"
+maglck="8"
+
+rogue=( "Rogue" 14 6 6 3 4 9 2 6 )
+roglvladd=( 2 3 3 4 3 3 4 3)
+roghp="14"
+rogatk="6"
+rogdef="6"
+rogsatk="3"
+rogsdef="4"
+rogspd="9"
+rogmgc="3"
+roglck="5"
+
+stranger=( 15 10 8 2 2 8 2 5 )
+stnghp="15"
+stnatk="10"
+stndef="7"
+stnsatk="2"
+stnsdef="2"
+stnspd="8"
+stnmgc="2"
+stnlck="5"
+
+
+
+
+

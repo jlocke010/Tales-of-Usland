@@ -1,0 +1,128 @@
+#!/bin/bash
+
+a00="You awaken in a daze...
+
+"
+a01="You body begins to ache with the uncomfortable
+feeling of lying awkwardly on wood.
+"
+
+
+a02="The hard angles dig into your aching back,
+made worse by the unmistakable movement of a boat rocking with the waves.
+"
+
+
+a03="You begin to hear the gentle slosh of the water on hull, and the cry of seagulls.
+"
+
+
+a04="You feel the thick heaviness of unconciounesss on your eyelids
+as they peel away from each other.
+
+Your eyes adjust to the view of a bright blue sky,
+and an unrecognizable land in the distance."
+
+
+a05="Your mind, fogged by confusion and and overwhelmed by your senses,
+slows at the sound of a comforting voice drifting towards you..."
+
+
+a06="You are faced with the sight of an aged man...
+
+He is grey of both hair and eye, dressed in tattered clothes and rags,
+his dirty face looking upon yours with concern....
+
+..There is a warmth in his steely eyes..."
+
+
+a07="Beggar: Hi fella, you've been asleep for quite a while.."
+
+a08="They swept you up with the rest of the lot back in Usland.
+"
+
+
+a09="
+    *You feel a deepening nausea fill in your stomach and move its way towards your throat*
+
+    "
+
+
+
+a10="   Beggar: An admirable pursuit indeed.
+"
+
+
+a11="   Beggar: I wish you the best on your endeav-
+"
+
+
+a12="The Beggar is interrupted as the boat hits shore, and you are launched face first into the sandy grit.
+"
+
+
+
+a13="You look up towards the sight of an off-putting land of mud and sand."
+
+
+
+
+a14="A scene of colorful tumult fills your vision. A beachside,
+bustling with traders and merchants, shouting and chattering,
+
+The rustle of contracts and documents, and the clanking jingle of chains.
+"
+
+
+
+a15="It is then you realize your captors mean to trade you off to the highest bidder."
+
+
+a16="As you spit out the sand and muck, you notice the Beggar being dragged off by your captors.
+"
+
+
+
+a17="You've successfully evaded your captors, when you're approached with your first choice.
+"
+
+
+
+a18="Ahead of you, you see a shrouded forest, thick with brambles and bushes.
+
+It is too dense to try and make your way through the woods.
+
+#It would appear that the road forks into two directions..."
+
+
+a19="To the east is the only possible path through the Northern Forest."
+
+b01="This Forest to the North has an air of foreign presence,
+
+with vines and brambles overgrowing onto the path.
+
+It doesn't appear to have been traversed very often.
+"
+
+a20="To the west is a road that seems to lead through towards a Mountain Path,
+
+the trail slowly inclining away."
+
+
+c01="Looking at the Mountain Path, you notice the marks of wheels
+
+impressed upon the ground. The path appears to be used frequently,
+
+but by whom is anyone's guess..."
+
+
+
+
+
+
+
+
+
+
+
+
