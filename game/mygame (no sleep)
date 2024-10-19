@@ -86,7 +86,7 @@ x="$(rollnum 1d10)"
 y="$(rollnum 1d10)"
 chkv1="    *You breathe in slowly through your nose, and exhale out just as slowly.*
 
-    *You begin to feel the lump that had started to form in your throat shrink and subside.*
+    *You feel the lump that had started to form in your throat shrink and subside.*
 
     "
 chkv2="  Beggar: Now don't go yakking just yet, we're almost to land.
@@ -142,7 +142,7 @@ done
 
 #variables for next question
 
-myvar1="To fufill my legacy and become a heroic knight!"
+myvar1="To fulfill my legacy and become a heroic knight!"
 
 
 myvar2="To attune myself with the magic of this world."
