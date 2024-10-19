@@ -94,7 +94,7 @@ chkv2="  Beggar: Now don't go yakking just yet, we're almost to land.
 chkv3="The beggar looks on you with sympathy and 
 hands you what appears to be an old burlap potato sack.
 
-He turn away politely, knowing whats coming next.
+He turns away politely, knowing whats coming next.
     "
 chkv4="    *You vomit into the bag,
     uncaring that the sack was clearly not meant for liquids.
@@ -296,7 +296,7 @@ myvar1="You find some rags and burlap, and fashion them around yourself.
 "
 echo "  a. Look around for something to disguise yourself"
 
-myvar11="You've Been Caught!! The gaurds notice your odd appearance, and immediately recognize you. You are clasped into shackles and hustled back into line.
+myvar11="You've Been Caught!! The guards notice your odd appearance, and immediately recognize you. You are clasped into shackles and hustled back into line.
 "
 
 myvar2="You see a small broken skiff, capsized in the sand.
@@ -514,10 +514,10 @@ do
                 "
                 z="true"
                 y="false"
-                echo "You notice nothig of interest
+                echo "You notice nothing of interest
                 "
             fi
-                echo "  Did you want to go east y/n?"
+                echo "  Did you want to go East y/n?"
                 read yn
 
             if [[ "$yn" == "yes" || "$yn" == "Yes" || "$yn" == "y" || "$yn" == "Y" ]];
@@ -534,7 +534,7 @@ do
         then
             echo $b01
         fi
-        echo "  Did you want to go east y/n?"
+        echo "  Did you want to go East y/n?"
 
         read yn
 
@@ -591,10 +591,10 @@ do
                 "
                 z="true"
                 y="false"
-                echo "You notice nothig of interest
+                echo "You notice nothing of interest
                 "
             fi
-                echo "  Did you want to go west y/n?"
+                echo "  Did you want to go West y/n?"
                 read yn
 
             if [[ "$yn" == "yes" || "$yn" == "Yes" || "$yn" == "y" || "$yn" == "Y" ]];
@@ -611,7 +611,7 @@ do
         then
             echo $b01
         fi
-        echo "  Did you want to go west y/n?"
+        echo "  Did you want to go West y/n?"
 
         read yn
 
