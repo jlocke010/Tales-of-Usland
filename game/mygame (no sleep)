@@ -10,7 +10,10 @@ source functions
 
 cat header
 
-
+######
+#####
+#####
+#####          CHANGE GT TO GE
 
 echo "
 
@@ -240,7 +243,7 @@ do
     fi
 done
 
-
+# ADD SAVE CHECK HERE!
 #Begin Story#
 
 echo "$a10
@@ -317,7 +320,7 @@ ans3="10"
 
 if [ "$answer3" == "a" ]
 then
-    if [ "$lck" -gt "$chk" ]
+    if [ "$lck" -ge "$chk" ]
     then
         droll="$(($lck - $chk))"
         echo "your have a +$droll modifier from luck
@@ -334,7 +337,7 @@ then
 
     fi
 
-    if [ $chk -gt $ans3 ]
+    if [ $chk -ge $ans3 ]
     then
         echo "  Check Successful!
         "
@@ -350,7 +353,7 @@ then
 
 elif [ "$answer3" == "b" ]
 then
-    if [ "$spd" -gt "$chk" ]
+    if [ "$spd" -ge "$chk" ]
     then
         droll="$(($spd - $chk))"
         echo "your have a +$droll modifier from speed
@@ -367,7 +370,7 @@ then
 
     fi
 
-    if [ $chk -gt $ans3 ]
+    if [ $chk -ge $ans3 ]
     then
         echo "  Check Successful!
         "
@@ -383,7 +386,7 @@ then
 
 elif [ "$answer3" == "c" ]
 then
-    if [ "$str" -gt "$chk" ]
+    if [ "$str" -ge "$chk" ]
     then
         droll="$(($str - $chk))"
         echo "your have a +$droll modifier from Strength.
@@ -400,7 +403,7 @@ then
 
     fi
 
-    if [ $chk -gt $ans3 ]
+    if [ $chk -ge $ans3 ]
     then
         cmpn= "${stanger[@]}"
         echo "  Check Successful!
@@ -476,7 +479,7 @@ do
         then
             echo "  Perception Check!"
 
-            if [ "$lck" -gt "$chk" ];
+            if [ "$lck" -ge "$chk" ];
             then
                 droll="$(($lck - $chk))"
 
@@ -494,7 +497,7 @@ do
                 echo "  you rolled a $chk
                 "
 
-            if [ $chk -gt $ans ];
+            if [ $chk -ge $ans ];
             then
                 echo "  Check Successful!
                 "
@@ -553,7 +556,7 @@ do
         then
             echo "  Perception Check!"
 
-            if [ "$lck" -gt "$chk" ];
+            if [ "$lck" -ge "$chk" ];
             then
                 droll="$(("$lck" - "$chk"))"
                 chk="$(($x + $droll))"
@@ -571,7 +574,7 @@ do
                 echo "  you rolled a $chk!
                 "
 
-            if [ $chk -gt $ans ];
+            if [ $chk -ge $ans ];
             then
                 echo "  Check Successful!
                 "
