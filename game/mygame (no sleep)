@@ -84,14 +84,21 @@ echo "$a09
 
 x="$(rollnum 1d10)"
 y="$(rollnum 1d10)"
-chkv1="You breathe in slowly through your nose, and exhale out just as slowly. You begin to feel the lump that had started to form in your throat shrink and subside.
+chkv1="You breathe in slowly through your nose, and exhale out just as slowly.
+You begin to feel the lump that had started to form in your throat shrink and subside.
 
     "
 chkv2="  Beggar: Now don't go yakking just yet, we're almost to land.
 "
-chkv3="The beggar looks on you with sympathy and hands you what appears to be an old burlap potato sack. He turn away politely, knowing whats coming next.
+chkv3="The beggar looks on you with sympathy and 
+hands you what appears to be an old burlap potato sack.
+
+He turn away politely, knowing whats coming next.
     "
-chkv4="    *You vomit into the bag, uncaring that the sack was clearly not meant for liquids. You wipe the remains on your torn and ragged clothes.*
+chkv4="    *You vomit into the bag,
+    uncaring that the sack was clearly not meant for liquids.
+
+    You wipe the remains on your torn and ragged clothes.*
     "
 
 
