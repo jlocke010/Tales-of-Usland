@@ -328,6 +328,13 @@ then
     if [ "$lck" -gt "$chk" ]
     then
         droll="$(($lck - $chk))"
+
+
+        chk="$(($x + $droll))"
+
+
+
+    fi
         echo "your have a +$droll modifier from luck
         "
 
@@ -335,12 +342,9 @@ then
         echo "you must roll a 10 out of 20 or higher
         "
 
-
-        chk="$(($x + $droll))"
-
         echo "  you rolled a $chk"
 
-    fi
+
 
     if [ $chk -gt $ans3 ]
     then
@@ -361,19 +365,20 @@ then
     if [ "$spd" -gt "$chk" ]
     then
         droll="$(($spd - $chk))"
-        echo "your have a +$droll modifier from speed
+
+        chk="$(($x + $droll))"
+
+
+    fi
+            echo "your have a +$droll modifier from speed
         "
 
 
         echo "you must roll a 10 out of 20 or higher
         "
 
-
-        chk="$(($x + $droll))"
-
         echo "  you rolled a $chk"
 
-    fi
 
     if [ $chk -gt $ans3 ]
     then
@@ -394,19 +399,21 @@ then
     if [ "$str" -gt "$chk" ]
     then
         droll="$(($str - $chk))"
-        echo "your have a +$droll modifier from Strength.
-        "
-
-
-        echo "you must roll a 10 out of 20 or higher.
-        "
 
 
         chk="$(($x + $droll))"
 
-        echo "  you rolled a $chk"
 
     fi
+    echo "your have a +$droll modifier from Strength.
+    "
+
+
+    echo "you must roll a 10 out of 20 or higher.
+    "
+
+    echo "  you rolled a $chk"
+
 
     if [ $chk -gt $ans3 ]
     then
