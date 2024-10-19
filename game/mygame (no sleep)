@@ -10,10 +10,7 @@ source functions
 
 cat header
 
-######
-#####
-#####
-#####          CHANGE GT TO GE
+
 
 echo "
 
@@ -87,14 +84,14 @@ echo "$a09
 
 x="$(rollnum 1d10)"
 y="$(rollnum 1d10)"
-chkv1="You take a deep breath and begin to feel at ease
+chkv1="You breathe in slowly through your nose, and exhale out just as slowly. You begin to feel the lump that had started to form in your throat shrink and subside.
 
     "
 chkv2="  Beggar: Now don't go yakking just yet, we're almost to land.
 "
-chkv3="The beggar hands you a bag, knowing whats coming next.
+chkv3="The beggar looks on you with sympathy and hands you what appears to be an old burlap potato sack. He turn away politely, knowing whats coming next.
     "
-chkv4="    *You Vomit into the bag. Wiping the reamins on you torn rags of clothes.*
+chkv4="    *You vomit into the bag, uncaring that the sack was clearly not meant for liquids. You wipe the remains on your torn and ragged clothes.*
     "
 
 
@@ -137,7 +134,7 @@ done
 
 #variables for next question
 
-myvar1="To fufill my legcy and be a heroic knight!"
+myvar1="To fufill my legacy and become a heroic knight!"
 
 
 myvar2="To attune myself with the magic of this world."
@@ -237,13 +234,13 @@ do
         yesno
 
     else
-        echo "  Sorry I didn't quite catch that
+        echo "  Sorry, I didn't quite catch that.
         "
         z="false"
     fi
 done
 
-# ADD SAVE CHECK HERE!
+
 #Begin Story#
 
 echo "$a10
@@ -284,30 +281,30 @@ echo "$a16
 
 #Question 3#
 
-echo "  what do you do?
+echo "  What do you do?
 "
 
 myvar1="You find some rags and burlap, and fashion them around yourself.
 "
-echo "  a. Look around for something to disuigse yourself"
+echo "  a. Look around for something to disguise yourself"
 
-myvar11="You've Been Caught!! The gaurds notice your odd apperance, and immediately recognize you. You are fashioned back in your shackles and hustled back into line.
+myvar11="You've Been Caught!! The gaurds notice your odd appearance, and immediately recognize you. You are clasped into shackles and hustled back into line.
 "
 
-myvar2="You see a small broken skiff, capsized in the sand
-you crawl underneath. As best you can..
+myvar2="You see a small broken skiff, capsized in the sand.
+You crawl underneath. As best you can...
 "
-echo "  b. Hide and wait for your opprotunity to escape."
+echo "  b. Hide and wait for your opportunity to escape."
 
-myvar21="You've Been Caught!! Your captors notice you feet sticking out from the boat.
-You are fashioned back in your shackles and hustled back into line.
+myvar21="You've Been Caught!! Your captors notice your feet sticking out from under the boat.
+You are clasped into shackles and hustled back into line.
 "
 
-myvar3="You grab an oar and run for the nearest captor"
+myvar3="You grab an oar and rush the nearest captor"
 echo "  c. Grab the nearest object you can use as a weapon and advance on your captors.
 "
-myvar31="You've Been Caught!! Use lose your footing and fall face first before your captors.
-You are fashioned back in your shackles and hustled back into line.
+myvar31="You've Been Caught!! You lose your footing and fall face first before your captors.
+You are clasped into shackles and hustled back into line.
 "
 
 read answer3
@@ -320,7 +317,7 @@ ans3="10"
 
 if [ "$answer3" == "a" ]
 then
-    if [ "$lck" -ge "$chk" ]
+    if [ "$lck" -gt "$chk" ]
     then
         droll="$(($lck - $chk))"
         echo "your have a +$droll modifier from luck
@@ -337,7 +334,7 @@ then
 
     fi
 
-    if [ $chk -ge $ans3 ]
+    if [ $chk -gt $ans3 ]
     then
         echo "  Check Successful!
         "
@@ -353,7 +350,7 @@ then
 
 elif [ "$answer3" == "b" ]
 then
-    if [ "$spd" -ge "$chk" ]
+    if [ "$spd" -gt "$chk" ]
     then
         droll="$(($spd - $chk))"
         echo "your have a +$droll modifier from speed
@@ -370,7 +367,7 @@ then
 
     fi
 
-    if [ $chk -ge $ans3 ]
+    if [ $chk -gt $ans3 ]
     then
         echo "  Check Successful!
         "
@@ -386,7 +383,7 @@ then
 
 elif [ "$answer3" == "c" ]
 then
-    if [ "$str" -ge "$chk" ]
+    if [ "$str" -gt "$chk" ]
     then
         droll="$(($str - $chk))"
         echo "your have a +$droll modifier from Strength.
@@ -403,7 +400,7 @@ then
 
     fi
 
-    if [ $chk -ge $ans3 ]
+    if [ $chk -gt $ans3 ]
     then
         cmpn= "${stanger[@]}"
         echo "  Check Successful!
@@ -479,7 +476,7 @@ do
         then
             echo "  Perception Check!"
 
-            if [ "$lck" -ge "$chk" ];
+            if [ "$lck" -gt "$chk" ];
             then
                 droll="$(($lck - $chk))"
 
@@ -497,7 +494,7 @@ do
                 echo "  you rolled a $chk
                 "
 
-            if [ $chk -ge $ans ];
+            if [ $chk -gt $ans ];
             then
                 echo "  Check Successful!
                 "
@@ -556,7 +553,7 @@ do
         then
             echo "  Perception Check!"
 
-            if [ "$lck" -ge "$chk" ];
+            if [ "$lck" -gt "$chk" ];
             then
                 droll="$(("$lck" - "$chk"))"
                 chk="$(($x + $droll))"
@@ -574,7 +571,7 @@ do
                 echo "  you rolled a $chk!
                 "
 
-            if [ $chk -ge $ans ];
+            if [ $chk -gt $ans ];
             then
                 echo "  Check Successful!
                 "
