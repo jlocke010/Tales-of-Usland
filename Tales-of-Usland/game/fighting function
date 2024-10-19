@@ -1,0 +1,15 @@
+#! /bin/bash
+
+LuckChk() {}
+y="${rogue[2]}"
+x="$(rollnum 1d10)"
+y="$(rollnum 1d10)"
+
+if [ "$x" -gt "$y" ]; 
+then
+    echo "hit"
+else
+    echo "no hit"
+fi
+
+}
